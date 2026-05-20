@@ -31,7 +31,6 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install -y build-essential cmake git wget curl python3-pip python3-venv python3-colcon-common-extensions python3-rosdep python3-vcstool lsb-release gnupg software-properties-common 
   
 sudo apt install -y ros-humble-desktop
-sudo apt install ros-humble-mavros ros-humble-mavros-extras -y
 ```
 
 ### Source ROS:
