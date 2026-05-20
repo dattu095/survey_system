@@ -21,7 +21,15 @@ def generate_launch_description():
         output="screen"
     )
     
+    path_planner = Node(
+        package="survey_system",
+        executable="path_planner_node",
+        name="path_planner_node",
+        output="screen"
+    )
+    
     return LaunchDescription([
         sitl,
-        geofence
+        geofence,
+        path_planner
     ])

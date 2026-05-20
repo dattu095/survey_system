@@ -23,6 +23,9 @@ setup(
         ],
     },
     entry_points={
-        "console_scripts": ["geofence_node = survey_system.geofence_node:main"],
+        "console_scripts": [
+            "geofence_node = survey_system.geofence_node:main",
+            "path_planner_node = survey_system.path_planner_node:main"
+        ],
     },
 )
